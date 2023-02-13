@@ -24,7 +24,7 @@ class Carro(Automovel):
 novo_carro = Carro()
 novo_carro.combustivel = "Gasolina"
 novo_carro.cor = "Vermelho"
-novo_carro.placa = "OUO-9090"
+novo_carro.placa = "OUO-9091"
 
 exibir = novo_carro.__dict__
 
