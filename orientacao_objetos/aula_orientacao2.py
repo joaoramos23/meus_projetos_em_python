@@ -1,5 +1,5 @@
 class Automovel:
-
+    nome = "Celta"
     def __init__(self):
         pass
 
@@ -21,6 +21,10 @@ class Carro(Automovel):
     cor = None
     placa = None
 
+    def imprimir(self):
+        print(f"Nome: {self.nome}, Cor: {self.cor}, Combustivel: {self.combustivel}, Placa: {self.placa}")
+
+"""
 novo_carro = Carro()
 novo_carro.combustivel = "Gasolina"
 novo_carro.cor = "Vermelho"
@@ -38,3 +42,4 @@ novo_carro.alterar_placa("OUO-0909")
 for key,value in exibir.items():
     print(f"{key} -> {value}")
 
+"""
